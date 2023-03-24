@@ -70,6 +70,7 @@ rules:
   - apiGroups: [""]
     resources: ["events"]
     verbs: ["create", "patch"]
+
 ---
 
 # ClusterIssuer controller role
